@@ -1,106 +1,4 @@
-              MAMMOGRAPHIC IMAGE ANALYSIS SOCIETY
-                  MiniMammographic Database
-
-
-
-Thank you for downloading the MIAS MiniMammographic Database. By
-popular request the original MIAS Database (digitised at 50 micron
-pixel edge) has been reduced to 200 micron pixel edge and 
-clipped/padded so that every image is 1024 pixels x 1024 pixels.
-
-Feel free to use the database in any of your scientific research, 
-but please read the licence agreement first (Licence.txt).
-
-If you have have any questions/comments about the data or would like 
-information on how to get the original MIAS Database please contact 
-me at the address below. You will be put on a mailing list for further 
-information about any upgrades of this database. See also our WWW-page 
-at http://skye.icr.ac.uk/miasdb/miasdb.html for updated information.
-
-John Suckling
-Department of Physics
-Royal Marsden Hospital
-Fulham Road, London.
-SW3 6JJ, UK.
-
-Email: j.suckling@rmh_lon.icr.ac.uk
-                       
-19 January 1995                          
-=================================================================
-
-CREDITS:
-
-Organiser: J Suckling
-
-Truth-Data: C R M Boggis and I Hutt
-
-Co-Workers: S Astley, D Betal, N Cerneaz, D R Dance, S-L Kok, J Parker, 
-            I Ricketts, J Savage, E Stamatakis and P Taylor.
- 
-Special Thanks: N Karrsemeijer.
-
-Pilot European Image Processing Archive (PEIPA) Orgainser: A Clark. 
- 
-=================================================================
-
-REFERENCE:
-
-J Suckling et al (1994) "The Mammographic Image Analysis Society Digital
-Mammogram Database" Exerpta Medica. International Congress Series
-1069 pp375-378.
-
-=================================================================
-
-INFORMATION:
-
-This file lists the films in the MIAS database and provides     
-appropriate details as follows:
-
-1st column: MIAS database reference number.
-
-2nd column: Character of background tissue: 
-                F - Fatty 
-                G - Fatty-glandular
-                D - Dense-glandular
-
-3rd column: Class of abnormality present:
-                CALC - Calcification
-                CIRC - Well-defined/circumscribed masses
-                SPIC - Spiculated masses
-                MISC - Other, ill-defined masses
-                ARCH - Architectural distortion
-                ASYM - Asymmetry
-                NORM - Normal
-
-4th column: Severity of abnormality;
-                B - Benign
-                M - Malignant
-                
-5th,6th columns: x,y image-coordinates of centre of abnormality.
-
-7th column: Approximate radius (in pixels) of a circle enclosing
-	    the abnormality.
-	    
-NOTES
-=====
-1) The list is arranged in pairs of films, where each pair 
-   represents the left (even filename numbers) and right mammograms
-   (odd filename numbers) of a single patient.
-   
-2) The size of ALL the images is 1024 pixels x 1024 pixels. The images
-   have been centered in the matrix.  
-
-3) When calcifications are present, centre locations and radii 
-   apply to clusters rather than individual calcifications.
-   Coordinate system origin is the bottom-left corner.
-
-4) In some cases calcifications are widely distributed throughout
-   the image rather than concentrated at a single site. In these
-   cases centre locations and radii are inappropriate and have
-   been omitted.
-
-=================================================================
-
+REFNUM BG CLASS SEVERITY X Y RADIUS 
 mdb001 G CIRC B 535 425 197
 mdb002 G CIRC B 522 280 69
 mdb003 D NORM 
@@ -319,7 +217,7 @@ mdb212 G CALC B 687 882 3
 mdb213 G CALC M 547 520 45
 mdb214 G CALC B 582 916 11
 mdb215 D NORM 
-mdb216 D CALC M *NOTE 3* 
+mdb216 D CALC M
 mdb217 G NORM 
 mdb218 G CALC B 519 629 8
 mdb219 G CALC B 546 756 29
@@ -339,7 +237,7 @@ mdb229 F NORM
 mdb230 F NORM 
 mdb231 F CALC M 603 538 44
 mdb232 F NORM 
-mdb233 G CALC M *NOTE 3*
+mdb233 G CALC M 
 mdb234 G NORM 
 mdb235 D NORM 
 mdb236 D CALC B 276 824 14
@@ -352,7 +250,7 @@ mdb241 D CALC M 453 678 38
 mdb242 D NORM 
 mdb243 D NORM 
 mdb244 D CIRC B 466 567 52
-mdb245 F CALC M *NOTE 3*
+mdb245 F CALC M 
 mdb246 F NORM 
 mdb247 F NORM 
 mdb248 F CALC B 378 601 10
@@ -431,5 +329,3 @@ mdb319 D NORM
 mdb320 D NORM 
 mdb321 D NORM 
 mdb322 D NORM 
-
-=================================================================
