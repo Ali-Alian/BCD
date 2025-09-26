@@ -1,4 +1,7 @@
-              MAMMOGRAPHIC IMAGE ANALYSIS SOCIETY
+The main requirement is to run the LBP Model and see the result for using Machine learning algorithm LBP and GLCM to detect the breast cancer in Mammography image
+
+========================================================
+			MAMMOGRAPHIC IMAGE ANALYSIS SOCIETY
                   MiniMammographic Database
 
 
@@ -100,3 +103,4 @@ NOTES
    been omitted.
 
 ##All the code is done using the LBP algorithm 
+
